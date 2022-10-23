@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: system-ui;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+}
+.cruds {
+  color: #fff;
+  margin-top: 40px;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.title h2 {
+  font-size: 30px;
+}
+.title p {
+  font-size: 18px;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #111;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+input:focus {
+  transform: scale(1.1);
+  background-color: #000;
+}
+.finance {
+  display: flex;
+  align-items: center;
+}
+.finance input {
+  margin-right: 10px;
+  flex-basis: 20%;
+}
+#total {
+  background-color: #e91e63;
+  padding: 10px;
+  border-radius: 4px;
+}
+#total::before {
+  content: "Total: ";
+}
+button {
+  width: 100%;
+  background-color: #009688;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  color: white;
+  margin: 5px 0;
+}
+button:hover {
+  background-color: #03b7a5;
+}
+.searchAll {
+  display: flex;
+  justify-content: space-between;
+}
+.searchAll button {
+  width: 45%;
+}
+.table {
+  margin-top: 40px;
+}
+table {
+  width: 100%;
+}
+thead {
+  text-transform: uppercase;
+}
+tbody {
+  text-align: center;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+}
+.delete {
+  background-color: #e91e63;
+}
+.delete:hover {
+  background-color: #ed467e;
+}
+.deleteAll {
+  margin-top: 15px;
+}
